@@ -1,0 +1,310 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/$system/custom.xml</include>
+	
+	
+	<view name="system">
+	
+		<sound name="directory">
+			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/music</path>
+		</sound>
+		
+		<carousel name="systemcarousel">
+			<type>horizontal</type>
+			<pos>-0.5 0.25</pos>
+			<size>2 0.5</size>
+			<color>9B9B9B00</color>
+			<logoScale>2</logoScale>
+			<logoSize>0.3 0.2</logoSize>
+			<maxLogoCount>2</maxLogoCount>
+			<zIndex>80</zIndex>
+		</carousel>
+
+		<text name="systemInfo">
+			<backgroundColor>ffffff00</backgroundColor>
+			<color>181818</color>
+			<fontPath>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/Exo2-BoldCondensed.otf</fontPath>
+			<fontSize>0.055</fontSize>
+			<pos>0 0.78</pos>
+			<size>1 0.1</size>
+		</text>
+			
+		<image name="systeminfo" extra="true">
+			<pos>0.5 0.5</pos>
+			<maxSize>0.75 0.55</maxSize>
+			<origin>0.5 0.5</origin>
+			<path>./assets/systeminfo.png</path>
+			<zIndex>39</zIndex>
+		</image>
+		
+		<image name="left" extra="true">
+			<pos>0.05 0.5</pos>
+			<maxSize>0.2 0.2</maxSize>
+			<origin>0.5 0.5</origin>
+			<path>./assets/left_arrow.png</path>
+			<zIndex>12</zIndex>
+		</image>
+		
+		<image name="right" extra="true">
+			<pos>0.95 0.5</pos>
+			<maxSize>0.2 0.2</maxSize>
+			<origin>0.5 0.5</origin>
+			<path>./assets/right_arrow.png</path>
+			<zIndex>12</zIndex>
+		</image>
+		
+		<text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10" extra="false">
+			<pos>1 1</pos>
+		</text>
+		
+		<text name="logoText">
+			<color>FFFFFFFF</color>
+		</text>
+				
+	</view>
+	
+	<view name="menu">
+		<menuText name="menufooter">
+			<fontPath>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/Exo2-BoldCondensed.otf</fontPath>
+			<fontSize>0.025</fontSize>
+			<color>808080FF</color>
+		</menuText>
+		<menuText name="menutext">
+			<fontPath>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/Exo2-BoldCondensed.otf</fontPath>
+			<fontSize>0.045</fontSize>
+			<color>35495EFF</color>
+			<separatorColor>35495EFF</separatorColor>
+			<selectorColor>35495EFF</selectorColor>
+			<selectedColor>FFFFFFCC</selectedColor>
+		</menuText>
+		<menuTextSmall name="menutextsmall">
+			<fontPath>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/Exo2-BoldCondensed.otf</fontPath>
+			<fontSize>0.037</fontSize>
+			<color>35495EFF</color>
+		</menuTextSmall>
+		<menuText name="menutitle">
+			<fontPath>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/Exo2-BoldCondensed.otf</fontPath>
+			<fontSize>0.055</fontSize>
+			<color>35495EFF</color>
+		</menuText>
+		<menuBackground name="menubg">
+			<color>FFFFFFDD</color>
+			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/borderframe.png</path>
+			<fadePath>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/fade.png</fadePath>
+		</menuBackground>
+	</view>
+	
+	<view name="menu, system, basic, detailed">
+		<helpsystem name="help">
+			<fontPath>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/steelfishrg.ttf</fontPath>
+			<fontSize>0.052</fontSize>
+			<pos>0.01 0.94</pos>
+			<textColor>FFFFFFFF</textColor>
+			<iconColor>FFFFFFFF</iconColor>
+			<iconUpDown>./assets/updown.png</iconUpDown>
+			<iconLeftRight>./assets/leftright.png</iconLeftRight>
+			<iconUpDownLeftRight>./assets/all.png</iconUpDownLeftRight>
+			<iconA>./assets/a.png</iconA>
+			<iconB>./assets/b.png</iconB>
+			<iconX>./assets/x.png</iconX>
+			<iconY>./assets/y.png</iconY>
+			<iconL>./assets/l.png</iconL>
+			<iconR>./assets/r.png</iconR>
+			<iconStart>./assets/start.png</iconStart>
+			<iconSelect>./assets/select.png</iconSelect>
+		</helpsystem>
+	</view>
+	
+	<view name="system, basic, detailed">
+	
+		<image name="background" extra="true">
+			<tile>true</tile>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/back.png</path>
+			<color>35495EFF</color>
+			<zIndex>8</zIndex>
+		</image>
+		
+		<image name="band1" extra="true">
+			<size>0.03 1</size>
+			<pos>0.80 0</pos>
+			<origin>0 0</origin>
+			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/band.png</path>
+		</image>
+		
+		<image name="band2" extra="true">
+			<size>0.03 1</size>
+			<pos>0.829 0</pos>
+			<origin>0 0</origin>
+			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/band.png</path>
+		</image>
+		
+		<image name="band3" extra="true">
+			<size>0.03 1</size>
+			<pos>0.858 0</pos>
+			<origin>0 0</origin>
+			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/band.png</path>
+		</image>
+		
+		<image name="band4" extra="true">
+			<size>0.03 1</size>
+			<pos>0.887 0</pos>
+			<origin>0 0</origin>
+			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/band.png</path>
+		</image>
+		
+		<image name="logo">
+			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/$system/data/logo.svg</path>
+		</image> 
+		<image name="logo" region="eu">
+			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/$system/data/eu/logo.svg</path>
+		</image> 
+		
+		<image name="logo" region="jp">
+			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/$system/data/jp/logo.svg</path>
+		</image> 
+		
+		<image name="logo" region="us">
+			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/$system/data/us/logo.svg</path>
+		</image> 
+		
+		
+	</view>
+	
+	<view name="basic, detailed">
+	
+		<image name="logo">
+			<pos>0.01 0.20</pos>
+			<maxSize>0.38 0.18</maxSize>
+			<origin>0 1</origin>
+		</image>
+		
+		<textlist name="gamelist">
+			<fontPath>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/Exo2-BoldCondensed.otf</fontPath>
+			<fontSize>0.056</fontSize>
+			<forceUppercase>1</forceUppercase>
+			<selectorColor>C8C8C8FF</selectorColor>
+			<selectedColor>000000FF</selectedColor>
+			<primaryColor>FFFFFFFF</primaryColor>
+			<secondaryColor>4d4d4d</secondaryColor>
+		</textlist>
+		
+	</view>
+	
+	<view name="detailed">
+		
+		<image name="backtext2" extra="true">
+			<pos>0.01 0.21</pos>
+			<size>0.44 0.69</size>
+			<origin>0 0</origin>
+			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/back90.png</path>
+			<color>2A4055</color>
+		</image>
+		
+		<image name="md_image">
+			<pos>0.23 0.555</pos>
+			<maxSize>0.42 0.67</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<image name="md_video">
+			<pos>0.23 0.555</pos>
+			<maxSize>0.42 0.67</maxSize>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<image name="backtext3" extra="true">
+			<pos>0.455 0.01</pos>
+			<size>0.535 0.89</size>
+			<origin>0 0</origin>
+			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/back90.png</path>
+			<color>2A4055</color>
+		</image>
+		
+		<textlist name="gamelist">
+			<pos>0.465 0.02</pos>
+			<size>0.515 0.85</size>
+			<alignment>left</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+		</textlist>
+		
+		
+
+		<text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_lbl_favorite, md_developer, md_publisher, md_genre, md_players, md_playcount, md_favorite, md_description, md_folder_name">
+			<color>FFFFFFFF</color>
+			<pos>1 1</pos>
+		</text>
+		<datetime name="md_releasedate, md_lastplayed">
+			<color>FFFFFFFF</color>
+			<pos>1 1</pos>
+		</datetime>
+		
+		<text name="md_description">
+			<pos>1 1</pos>
+		</text>
+		
+		<image name="md_folder_image_0, md_folder_image_1, md_folder_image_2, md_folder_image_3, md_folder_image_4, md_folder_image_5, md_folder_image_6, md_folder_image_7, md_folder_image_8">
+			<origin>0.5 0.5</origin>
+			<maxSize>0.1 0.15</maxSize>
+		</image>
+
+		<image name="md_folder_image_0">
+			<pos>0.1 0.35</pos>
+		</image>
+
+		<image name="md_folder_image_1">
+			<pos>0.22 0.35</pos>
+		</image>
+
+		<image name="md_folder_image_2">
+			<pos>0.35 0.35</pos>
+		</image>
+
+		<image name="md_folder_image_3">
+			<pos>0.1 0.55</pos>
+		</image>
+
+		<image name="md_folder_image_4">
+			<pos>0.22 0.55</pos>
+		</image>
+
+		<image name="md_folder_image_5">
+			<pos>0.35 0.55</pos>
+		</image>
+
+		<image name="md_folder_image_6">
+			<pos>0.1 0.75</pos>
+		</image>
+
+		<image name="md_folder_image_7">
+			<pos>0.22 0.75</pos>
+		</image>
+
+		<image name="md_folder_image_8">
+			<pos>0.35 0.75</pos>
+		</image>
+		
+		
+		
+		
+	</view>
+	
+	<view name="basic">
+		<image name="backtext1" extra="true">
+			<color>2A4055</color><pos>0.01 0.22</pos>
+			<size>0.98 0.662</size>
+			<origin>0 0</origin>
+			<path>/recalbox/share_init/system/.emulationstation/themes/recalbox-next/data/arts/back90.png</path>
+		</image>
+		
+		<textlist name="gamelist">
+			<pos>0.02 0.23</pos>
+			<size>0.96 0.660</size>
+			<alignment>center</alignment>
+			<horizontalMargin>0.01</horizontalMargin>
+		</textlist>
+	</view>
+	
+</theme>
