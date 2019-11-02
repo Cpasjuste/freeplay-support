@@ -209,11 +209,11 @@
 			<origin>0.5 0.5</origin>
 		</image>
 		
-		<image name="md_video">
+		<video name="md_video">
 			<pos>0.23 0.555</pos>
 			<maxSize>0.42 0.67</maxSize>
 			<origin>0.5 0.5</origin>
-		</image>
+		</video>
 		
 		<image name="backtext3" extra="true">
 			<pos>0.455 0.01</pos>
